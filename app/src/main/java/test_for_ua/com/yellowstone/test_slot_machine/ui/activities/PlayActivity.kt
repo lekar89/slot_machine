@@ -32,6 +32,7 @@ class PlayActivity : BaseActivity(), ISlotsResult {
                 slot_view.spin()
             } else {
                 Toast.makeText(this, "IMPOSSIBLE, NO CREDITS", Toast.LENGTH_SHORT).show()
+                btn_spin.isEnabled = false
             }
         }
         btn_bet_one.setOnClickListener { mv_bet.setSum(betList[++currentBatIndex]) }
