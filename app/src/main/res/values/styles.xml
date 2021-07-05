@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="Widget.Theme.TestSlotMachine.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+<!--    <style name="Widget.Theme.TestSlotMachine.ButtonBar.Fullscreen" parent="">-->
+<!--        <item name="android:background">@color/black_overlay</item>-->
+<!--        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>-->
+<!--    </style>-->
+    <style name="money_text"  parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+
+    <declare-styleable name="CustomView">
+        <attr format="string" name="money_value"/>
+        <attr format="reference" name="image"/>
+    </declare-styleable>
+</resources>
